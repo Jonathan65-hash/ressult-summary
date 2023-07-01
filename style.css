@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+#main-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}#main-body #main-body-child1{
+background-color:#4334F1;
+height: 340px;
+width: 250px;
+text-align: center;
+border-radius: 20px 20px ;
+position: relative;  
+left: 10px;  
+                                                                                                                                                                                                                                                                                                                                                                                      
+
+}#main-body #main-body-child1 h1{
+     color: white;
+     font-size: 14px;
+     opacity: 60%;
+     position: relative;
+     top: 20px;
+     font-family: 'Hanken Grotesk', sans-serif;
+}#main-body #main-body-child1 div{
+border-radius: 50%;
+height: 130px;
+width: 140px;
+background-image:linear-gradient(#4925D0,#4334F1) ;
+position: relative;
+top: 55px;
+left: 55px;
+}
+
+#main-body #main-body-child1 div  p{
+color: white;
+position: relative;
+top: 10px;
+opacity:60%;
+font-family: 'Hanken Grotesk', sans-serif;
+
+}#main-body #main-body-child1 div span{
+    font-size: 64px;
+    opacity: 100%;
+    color: white;
+position: relative;
+top: 20px;
+font-family: 'Hanken Grotesk', sans-serif;
+}
+#main-body #main-body-child1 h2{
+ color: white;
+ position: relative;
+ top: 80px;
+ font-family: 'Hanken Grotesk', sans-serif;
+}#main-body #main-body-child1 h3{
+color: white;
+position: relative;
+top: 100px;
+opacity: 50%;
+font-size: 11px;
+font-family: 'Hanken Grotesk', sans-serif;
+
+}#main-body #main-body-child2 {
+    background-color:#FFFFFF;
+    height: 350px;
+    width: 270px;
+    border-radius: 20px 20px ;
+   
+    
+}#main-body #main-body-child2 h1{
+font-family: 'Hanken Grotesk', sans-serif;
+font-size: 15px;
+position: relative;
+left: 25px;
+top: 29px;
+}#main-body #main-body-child2 .icon-reaction{
+    justify-content: space-between;
+    display: flex;
+}#main-body #main-body-child2 .icon-reaction {
+    width: 80%;
+    position: relative;
+    left: 5px
+
+}#main-body #main-body-child2 .icon-reaction .icon-reaction-sub{
+    position: relative;
+    top: 30px;
+    display: flex;
+}#main-body #main-body-child2 .icon-reaction .icon-reaction-sub img {
+    position: relative;
+    left: 25px;
+    top: 30px;
+
+
+
+
+}#main-body #main-body-child2 .icon-reaction .icon-reaction-sub h1{
+font-size: 11px;
+position: relative;
+bottom: 20px;
+left: 36px;
+color:#F8928E;
+}#main-body #main-body-child2 .icon-reaction-content {
+position: relative;
+
+}#main-body #main-body-child2 .icon-reaction-content h1{
+    font-size: 11px;
+     position: relative;
+     top: 60px;
+   
+    
+}#main-body #main-body-child2 .icon-reaction-content h1 span{
+    opacity: 50%;
+}
+
+#main-body #main-body-child2 .icon-memory {
+   justify-content: space-around;
+   display: flex;
+    position: relative;
+    
+}#main-body #main-body-child2 .icon-memory .icon-memory-sub {
+  display: flex;  
+  position: relative;
+  top: 40px;
+  right: 30px;
+}#main-body #main-body-child2 .icon-memory .icon-memory-sub img{
+    position: relative;
+    left: 20px;
+    top: 50px;
+    width: 16px;
+}#main-body #main-body-child2 .icon-memory .icon-memory-sub h1{
+   font-size: 11px; 
+   color:#F9BB5D;
+   position: relative;
+   top: 50px;
+   left:  35px;
+  
+}#main-body #main-body-child2 .icon-memory .icon-memory-content h2{
+    font-size: 11px;
+    position: relative;
+    left: 14px;
+    top: 90px;
+}#main-body #main-body-child2 .icon-memory .icon-memory-content h2 span{
+    opacity: 50%;
+}
+#main-body #main-body-child2 .icon-verbal{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+   
+}#main-body #main-body-child2 .icon-verbal .icon-verbal-sub{
+    display: flex; 
+    position: relative;
+    top: 50px;
+    right: 28px;
+}#main-body #main-body-child2 .icon-verbal .icon-verbal-sub img{
+     position: relative;
+    left: 60px;
+    top: 60px;
+    width: 16px;
+}#main-body #main-body-child2 .icon-verbal .icon-verbal-sub h1{
+    font-size: 11px;
+    position: relative;
+    left: 80px;
+    top: 60px;
+    color:#4DC4A4;
+}#main-body #main-body-child2 .icon-verbal .icon-verbal-content h3{
+    font-size: 11px;
+    position: relative;
+    right: 30px;
+    top: 110px;
+}#main-body #main-body-child2 .icon-verbal .icon-verbal-content h3 span{
+    opacity: 50%;
+}
+#main-body #main-body-child2 .icon-visual{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    right: 28px;
+}#main-body #main-body-child2 .icon-visual .icon-visual-sub{
+    display: flex;
+    position: relative;
+    top: 50px;
+}#main-body #main-body-child2 .icon-visual .icon-visual-sub img{
+   position: relative;
+    left: 60px;
+    top: 70px;
+    width: 16px;
+}#main-body #main-body-child2 .icon-visual .icon-visual-sub h1{
+    font-size: 11px;
+     position: relative;
+    left: 80px;
+    top: 70px;
+    color: #464DB7;
+}#main-body #main-body-child2 .icon-visual .icon-visual-content h4{
+font-size: 11px;
+ position: relative;
+   
+    top: 120px;
+}#main-body #main-body-child2 .icon-visual .icon-visual-content h4 span{
+    opacity: 50%;
+}
+button{
+
+    border: none;
+    position: relative;
+    top: 200px;
+    left: 30px;
+    padding: 10px;
+    border-radius: 20px 20px ;
+    background-color:#303B59;
+    color: white;
+    width: 220px;
+   
+}button:hover{
+    background-color: #4936F2;
+}
+
+@media screen and (min-width:320px) and (max-width:480px)
+{
+
+    #main-body{
+    display: inline;
+    
+}#main-body #main-body-child1{
+    border-radius:  0px 0px 20px 20px;
+}
+
+
+}
